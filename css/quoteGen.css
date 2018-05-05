@@ -1,0 +1,71 @@
+.container {
+  margin: auto;
+  width: 90%;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 15px;
+}
+#opa{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+body {
+  text-align: center;
+  background-color: navy;
+}
+img {
+  width: 350px;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: lightblue;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 10vw;
+  text-transform: uppercase;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: 3px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 10vw;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+#tQuote {
+  font-size: 7vw;
+}
+
+button:hover, button:focus {
+  text-shadow: 0 0 2px #fff;
+  box-shadow: 0 0 15px blue;  
+}
+
+button:active {
+  text-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 15px red;
+}
+
+@media only screen and (min-width: 500px) {
+  button {
+    font-size: 1.5em;
+  }
+  #tQuote {
+    font-size: 1em;
+  }   
+  #qDisplay {
+    font-size: 1.5em;
+  }
+  .container {
+     width: 70%;
+     max-width: 600px;
+  }
+  h1 {
+     font-size: 3em;
+  }
+}

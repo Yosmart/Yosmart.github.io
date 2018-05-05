@@ -1,0 +1,48 @@
+.type span {
+  display:block;
+}
+
+.type {
+  width:400px;
+  height:400px;
+  margin:auto;
+  margin-bottom: -150px;
+	text-align: center;
+	color: white;
+  line-height:0.85;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+}
+
+.type span:nth-child(1) {
+  font-size: 55px;
+}
+
+.type span:nth-child(2) {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 70px;
+  position: relative;
+  z-index: 1;
+  text-shadow: 5px 0 0 grey,
+				-5px 0 0 grey,
+				0 5px 0 grey,
+				0 -5px 0 grey,
+				4px 4px grey,
+				-4px -4px 0 grey,
+				4px -4px 0 grey,
+				-4px 4px 0 grey;
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  color:white;
+  margin-top:-5px;
+}
+
+.type span:nth-child(3) {
+  font-size: 70px;
+  margin-top:-12px;
+}

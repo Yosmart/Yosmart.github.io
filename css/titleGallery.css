@@ -1,0 +1,51 @@
+.title {
+  border-bottom: 1px solid #ccc;
+  max-width: 100%;
+  margin: 40px auto;
+  text-align: left;
+}
+.title-note {
+  font-size: 60%;
+  color: #999;
+}
+
+.abs-title {
+  position: relative;
+  .title-note {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+  }
+}
+
+.float-title {
+  .title-note {
+    float: right;
+    position: relative;
+    top: 12px;
+  }
+}
+
+.table-title {
+  display: table;
+  width: 100%;
+  > span {
+    display: table-cell;
+    white-space: nowrap;
+  }
+  .title-main {
+    width: 99%;
+  }
+}
+
+.flex-title {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  > span {
+    white-space: nowrap;
+  }
+  .title-main {
+    flex-grow: 1;
+  }
+}
